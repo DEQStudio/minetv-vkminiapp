@@ -19,6 +19,7 @@
     "react-scripts": "^3.4.1"
   },
   "dependencies": {
+    "@types/react": "^16.9.26",
     "@vkontakte/icons": "^1.19.0",
     "@vkontakte/vk-bridge": "^2.1.4",
     "@vkontakte/vk-miniapps-deploy": "0.0.17",
@@ -32,7 +33,8 @@
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-iframe": "github:svenanders/react-iframe"
+    "react-iframe": "github:svenanders/react-iframe",
+    "typescript": "^3.7.0-beta"
   },
   "browserslist": {
     "production": [
