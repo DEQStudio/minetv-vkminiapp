@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://deqstudio.github.io/minetv-vkminiapp/",
+  "homepage": "https://objective-ardinghelli-c9f149.netlify.com/",
   "scripts": {
     "start": "cross-env PORT=10888 HTTPS=true react-scripts start",
     "build": "react-scripts build",
