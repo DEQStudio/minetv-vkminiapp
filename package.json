@@ -32,8 +32,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-iframe": "github:svenanders/react-iframe",
-    "svenanders/react-iframe": "^1.8.0"
+    "react-iframe": "github:svenanders/react-iframe"
   },
   "browserslist": {
     "production": [
