@@ -1,4 +1,5 @@
 import React from 'react';
+import Iframe from 'react-iframe'
 import PropTypes from 'prop-types';
 import Panel from '@vkontakte/vkui/dist/components/Panel/Panel';
 import PanelHeader from '@vkontakte/vkui/dist/components/PanelHeader/PanelHeader';
@@ -22,7 +23,15 @@ const Home = ({ id, go, fetchedUser }) => (
 		</Group>}
 
 		<Group title="Navigation Example">
-			<div style='position: relative; padding-bottom: 56%; height: 0;'><iframe src='https://app.viloud.tv/player/embed/channel/3e6502a2759a7c8f59c081980bedecd0?autoplay=1&volume=1&controls=1&title=0&share=0&open_playlist=0&random=0' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' frameborder='0' allow='autoplay' allowfullscreen></iframe></div>
+			<Div>
+				<Iframe url="http://www.youtube.com/embed/xDMP3i36naA"
+        width="450px"
+        height="450px"
+        id="myId"
+        className="myClassname"
+        display="initial"
+        position="relative"/>
+			</Div>
 		</Group>
 	</Panel>
 );
