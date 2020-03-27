@@ -31,10 +31,7 @@
     "eruda-code": "^2.0.0",
     "eruda-dom": "^2.0.0",
     "prop-types": "^15.7.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-iframe": "github:svenanders/react-iframe",
-    "typescript": "^3.7.0-beta"
+    "react": "^16.13.1"
   },
   "browserslist": {
     "production": [
