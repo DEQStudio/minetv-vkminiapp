@@ -24,11 +24,11 @@ const Home = ({ id, go, fetchedUser }) => (
         position="relative"/>
         </Div>
         <Div>
-        <Placeholder
-                                    icon={<Icon28MessagesOutline className="MyBlock" />}
-                                    header="Пока никто не написал  сообщений">
-                                    Будьте первыми и напишите сообщение
-                                </Placeholder>
+        <br>
+        <p>
+        Hello, <input type="text" placeholder="Your name here" />!
+        It is {this.props.date.toTimeString()}
+      </p>
 				<Button size="xl" level="2" onClick={go} data-to="persik">
 					
 				</Button>
