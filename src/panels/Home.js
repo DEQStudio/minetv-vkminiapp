@@ -29,7 +29,7 @@ const Home = ({ id, go, fetchedUser }) => (
 				</Button>
 				<Iframe url="https://app.viloud.tv/player/embed/channel/3e6502a2759a7c8f59c081980bedecd0?autoplay=1&volume=1&controls=1&title=0&share=0&open_playlist=0&random=0"
         width="80%"
-        height="400px"
+        height="430px"
         id="myId"
         className="myClassname"
         display="initial"
