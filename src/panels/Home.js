@@ -24,7 +24,7 @@ const Home = ({ id, go, fetchedUser }) => (
         position="relative"/>
         </Div>
         <Div>
-        <br>
+        
         <p>
         Hello, <input type="text" placeholder="Your name here" />!
         It is {this.props.date.toTimeString()}
