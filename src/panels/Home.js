@@ -28,6 +28,13 @@ const Home = ({ id, go, fetchedUser }) => (
 					Show me the Persik, please
 				</Button>
 			</Div>
+			<Iframe url="http://www.youtube.com/embed/xDMP3i36naA"
+        width="450px"
+        height="450px"
+        id="myId"
+        className="myClassname"
+        display="initial"
+        position="relative"/>
 		</Group>
 	</Panel>
 );
