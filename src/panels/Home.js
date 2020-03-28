@@ -22,12 +22,8 @@ const Home = ({ id, go, fetchedUser }) => (
         className="myClassname"
         display="initial"
         position="relative"/>
-        </Div>
-        <Div>
-        
         <p>
-        Hello, <input type="text" placeholder="Your name here" />!
-        It is {this.props.date.toTimeString()}
+        Hello, il,mk,mk,mk
       </p>
 				<Button size="xl" level="2" onClick={go} data-to="persik">
 					
