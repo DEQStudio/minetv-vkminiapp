@@ -50,7 +50,7 @@ const Home = ({ id, go, fetchedUser }) => (
         Уведомления о подкастах включены
       </Snackbar>
     });
-  }
+  };
 
 Home.propTypes = {
 	id: PropTypes.string.isRequired,
