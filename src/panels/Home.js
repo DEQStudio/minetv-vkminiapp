@@ -21,6 +21,7 @@ const Home = ({ id, go, fetchedUser }) => (
         id="myId"
         className="myClassname"
         display="initial"
+        allow="fullscreen"
         position="relative"/>
         <p>
         MineTV - это бескрайний мир леденящих душу приключений, которые всегда рядом, ведь MineTV является полноценным телеканалом мира Майнкрафт, который всегда онлайн!
