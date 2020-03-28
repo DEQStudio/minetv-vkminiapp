@@ -25,8 +25,7 @@ const Home = ({ id, go, fetchedUser }) => (
         position="relative"/>
         <p>
         MineTV - это бескрайний мир леденящих душу приключений, которые всегда рядом, ведь MineTV является полноценным телеканалом мира Майнкрафт, который всегда онлайн!
-
-      </p>
+      </p></Div><Div>
 				<Button size="xl" level="2" ref="https://google.com">Загрузить приложение для Android</Button>
 			</Div>
 			
